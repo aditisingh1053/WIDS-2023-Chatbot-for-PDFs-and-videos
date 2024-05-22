@@ -28,7 +28,7 @@ st.markdown("<h4 style='font-family:sans-serif;text-align: center; color: Grey;'
 os.environ['OPENAI_API_KEY']=''
 #isert your api key here
 
-os.environ['REQUESTS_CA_BUNDLE'] = ''
+os.environ['REQUESTS_CA_BUNDLE'] = 'C:/Users/aditi/AppData/Local/Programs/Python/Python312/Lib/site-packages/certifi/cacert.pem'
 #insert your certificate perm here
 
 # loader=CSVLoader("Book1.csv")
